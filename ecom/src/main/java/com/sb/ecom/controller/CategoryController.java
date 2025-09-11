@@ -1,7 +1,6 @@
 package com.sb.ecom.controller;
 
 import com.sb.ecom.config.AppConstants;
-import com.sb.ecom.model.Category;
 import com.sb.ecom.payload.CategoryDTO;
 import com.sb.ecom.payload.CategoryResponse;
 import com.sb.ecom.service.CategoryService;
