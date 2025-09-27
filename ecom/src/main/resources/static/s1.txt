@@ -1,0 +1,9 @@
+Select tc.constraint_name, tc.table_name, tcc.column_name, tc.constraint_type
+from
+information_schema.table_constraints tc
+join
+information_schema.constraint_column_usage tcc on
+tc.constraint_name = tcc.constraint_name
+where
+tc.table_name = 'USERS'
+and tc.constraint_type = 'UNIQUE';
